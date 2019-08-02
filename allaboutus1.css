@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow|Patua+One|Shadows+Into+Light|Tinos:400i&display=swap);
+
+h1 {
+  font-family:Patua One;
+  display:block;
+  font-size:25px;
+  font-style:normal;
+  font-weight:lighter;
+}
+h4 {
+  font-family:Archivo Narrow;
+  display:block;
+  font-size:20px;
+  font-style:normal;
+  font-weight:lighter;
+}
