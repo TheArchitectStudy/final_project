@@ -1,4 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,800);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(https://fonts.googleapis.com/css?family=Alef);
+@import url(htps://fonts.googleapis.com/css?family=Alegreya+Sans:800);
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow|Patua+One|Shadows+Into+Light|Tinos:400i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,800);
 
 *,html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,label,fieldset,input,p,blockquote,th,td {
     margin: 0;
@@ -20,12 +26,12 @@ html {
 }
 
 a {
-    color: #BA0707;
+    color: #76CFC0;
     text-decoration: none;
 }
 
 a:hover {
-    color: #BA0707;
+    color: #97C6BE;
 }
 
 body {
@@ -39,7 +45,7 @@ body {
 
 nav {
     display: block;
-    background: #374147;
+    background: #469E87;
 }
 
 .menu {
@@ -61,13 +67,13 @@ nav {
     text-decoration: none;
     padding: 20px 15px;
     display: block;
-    color: #fff;
+    color: #76CFC0;
     transition: all 0.2s ease-in-out 0s;
 }
 
 .menu li a:hover,.menu li:hover>a {
-    color: #fff;
-    background: #35D359;
+    color: #97C6BE;
+    background:  #BBE8E1;
 }
 
 .menu ul {
@@ -78,7 +84,7 @@ nav {
     width: 170px;
     position: absolute;
     left: 0px;
-    background: #fff;
+    background: #576766;
     z-index: 99;
     transform: translate(0,20px);
     transition: all 0.2s ease-out;
@@ -94,7 +100,7 @@ nav {
     position: absolute;
     pointer-events: none;
     border-color: rgba(255, 255, 255, 0);
-    border-bottom-color: #fff;
+    border-bottom-color:  #469E87;
     border-width: 6px;
     margin-left: -6px;
 }
@@ -111,13 +117,13 @@ nav {
     font-size: 12px;
     font-weight: normal;
     display: block;
-    color: #797979;
-    background: #fff;
+    color: white;
+    background: #97C6BE;
 }
 
 .menu ul li a:hover,.menu ul li:hover>a {
-    background: #9ca3da;
-    color: #fff;
+    background: #97C6BE;
+    color: white;
 }
 
 .menu li:hover>ul {
@@ -145,7 +151,7 @@ nav {
     position: absolute;
     pointer-events: none;
     border-color: rgba(255, 255, 255, 0);
-    border-right-color: #fff;
+    border-right-color: white;
     border-width: 6px;
     margin-top: -6px;
 }
@@ -161,7 +167,7 @@ nav {
     width: 100%;
     padding: 20px 15px;
     background: #374147;
-    color: #fff;
+    color: white;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -173,7 +179,7 @@ nav {
 }
 
 a.homer {
-    background: #9ca3da;
+    background: #9;
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -318,12 +324,23 @@ padding-left, padding-right: 150px;
 #quote-person {
 color: #DCDCDC;
 } */
+h4 {
+  font-family: 'Archivo Narrow', sans-serif;
+  display: block;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: normal;
+}
 
 
 
 
 
-
-.img{
-  image-orientation: flip;
+#img {
+  /* image-orientation: flip; */
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+  height: 600px;
 }

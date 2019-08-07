@@ -25,7 +25,7 @@ html {
 }
 
 a {
-    color: 76CFC0
+    color: #76CFC0
     text-decoration: none;
 }
 
@@ -330,11 +330,11 @@ padding-left, padding-right: 150px;
 color: #DCDCDC;
 } */
 h1 {
-  font-family: 'Tinos', serif;
+  font-family: 'Archivo Narrow', sans-serif;
   display: block;
   font-size: 35px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   width: 1100px;
   text-align: center;
   margin-left: auto;
@@ -342,22 +342,22 @@ h1 {
   width: 60%;
 }
 h2 {
-  font-family: 'Tinos',serif;
+  font-family: 'Archivo Narrow', sans-serif;
   display: block;
   font-size: 20px;
   font-style: normal;
-  font-weight: lighter;
+  font-weight: bold;
   width: 960px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
 }
-p {
-  font-family: font-family: 'Archivo Narrow', sans-serif;
+/* p {
+  font-family: 'Archivo Narrow', sans-serif;
   display: block;
-  font-size: 15px;
-  font-style: normal;
+  font-size: 20px;
+  font-style: cursive;
   font-weight: lighter;
   width: 960px;
   text-align: center;
@@ -366,20 +366,20 @@ p {
   width: 40%;
   margin-bottom: 50px;
   margin-top: 10px;
-}
+} */
 #answers {
-  font-family:'Tinos',serif;
+  font-family:'Archivo Narrow',sans-serif;
   display: block;
-  font-size: 15px;
-  font-style: normal;
+  font-size: 20px;
+  font-style: cursive;
   font-weight: lighter;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
 }
-#credit {
-  font-family: 'Tinos',serif;
+/* #credit {
+  font-family: 'Archivo Narrow',sans-serif;
   display: block;
   font-size: 5px;
   font-style: normal;
@@ -389,7 +389,7 @@ p {
   margin-right: auto;
   width: 60%;
   margin-bottom: 5px;
-}
+} */
 #logo {
   left: 10px;
   width:100px;
@@ -398,7 +398,8 @@ p {
 
 }
 #microphone {
-  float: left;
+  width: 40px;
+  height:250px;
 }
 img {
   display: block;
@@ -421,10 +422,10 @@ img {
 #geophysicalOpaque {
   background-color: white;
   position: relative;
-  height: 56vh;
-  left: 29.6vw;
-  width: 90vh;
-  top: -60vh;
+  height: 51vh;
+  left: 29.9vw;
+  width: 82vh;
+  top: -55vh;
   z-index: -4;
   opacity: 0.8;
 }
@@ -439,10 +440,10 @@ img {
 }
 
 
-.leftcolumn {
+/* .leftcolumn {
   float: left;
   width: 65%;
-}
+} */
 ​
 /* Right column */
 .rightcolumn {
@@ -462,6 +463,9 @@ img {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-bottom: 20px;
 }
 ​
 @media screen and (max-width: 800px) {
@@ -477,9 +481,10 @@ img {
   }
 }
 
-font-family: 'Shadows Into Light', cursive;
+
+/* font-family: 'Shadows Into Light', cursive;
 font-family: 'Tinos', serif;
 font-family: 'Archivo Narrow', sans-serif;
 font-family: 'Patua One', cursive;
 font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Source Serif Pro', serif;
+font-family: 'Source Serif Pro', serif; */
